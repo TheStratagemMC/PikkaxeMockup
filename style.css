@@ -50,7 +50,7 @@ table {
 
 .header{
     width: 100%;
-    background-image: url('http://i.imgur.com/OHVDqF8.png');
+    background-image: url('http://i.imgur.com/OHVDqF8.png') no-repeat center center fixed;
 
     min-height:600px;
     max-height: 600px;
