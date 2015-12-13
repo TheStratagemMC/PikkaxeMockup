@@ -5,15 +5,18 @@
     <title>Pikkaxe Network</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
 
 <div class="header">
     <nav class="navbar">
-        <a class="navlink" href="#" style="width: 230px; top: 0px; border: none; animation-name: none; margin-right: -5px;"><h1>Pikkaxe</h1></a>
+        <a class="navlink" href="#" style="width: 230px; height: 130px; top: 0px; border: none; animation-name: none;"><h1>Pikkaxe</h1></a>
         <a class="navlink" href="#">Roadmap</a>
         <a class="navlink" href="#">Servers</a>
         <a class="navlink" href="#">Discussion</a>
+        
+        <a class="navlink right" href="#">Login</a>
     </nav>
 
     <div class="lead-content">
@@ -22,9 +25,41 @@
         <a class="bigbutton" href="#">Add your server now</a>
         <br/>
         <br/>
+                <div class="drop-icon"><i class="fa fa-angle-double-down"></i></div>
         <br/>
     </div>
-
 </div>
+<div class="section" style="background: #b8b8cb;">
+    <div class="section-content">
+
+    <h1>Free promotion and simple server collaboration.</h1>
+        
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        
+    </div>
+    
+</div>
+    
+    
+        <script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+    <script>
+      var mn = $(".navbar");
+
+      $(window).scroll(function () {
+        if( $(this).scrollTop() > 100 ) {
+          mn.addClass("main-nav-scrolled");
+        } else {
+          mn.removeClass("main-nav-scrolled");
+        }
+      });
+    //@ sourceURL=pen.js
+    </script>
+    
 </body>
 </html>

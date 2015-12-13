@@ -62,8 +62,8 @@ table {
 
 .header h1{
     font-weight: 100;
-    font-size: 3.3em;
-    line-height: 130px;
+    font-size: 2.5em;
+    line-height: 100px;
 }
 
 a.navlink{
@@ -74,8 +74,8 @@ a.navlink{
      width: 130px;
      height: 60px;
      position: relative;
-     top: 25%;
-     line-height: 60px;
+     top: 20%;
+    line-height: 60px;
      text-align: center;
 
      float: left;
@@ -84,6 +84,9 @@ a.navlink{
      border: 2px solid rgba(0,0,0,0.0);
 }
 
+a.navlink.right{
+       float: right;
+}
 @keyframes navframes{
     from{     border: 2px solid rgba(0,0,0,0.0);}
     to{     border: 2px solid #efefef;}
@@ -95,7 +98,12 @@ a.navlink:hover{
      animation-duration: 1s;
 }
 nav.navbar{
-    height: 130px;
+    height: 100px;
+}
+nav.main-nav-scrolled{
+    position: fixed;
+    width:100%;
+    background: #222;
 }
 
 .lead-content{
@@ -151,3 +159,19 @@ a.bigbutton:hover{
     text-decoration:underilne;
     color: #dedede;
 }
+
+.section{
+    width: 100%;
+
+    position: relative;
+}
+.section-content{
+  
+    padding: 50px;
+}
+.section-content h1{
+    font-weight: 100;
+    font-size: 2.8em;
+}
+.drop-icon{
+    font-size: 1.4em;
