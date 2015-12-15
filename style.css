@@ -170,7 +170,7 @@ a.bigbutton:hover{
     position: relative;
 }
 .section-content{
-  
+  	overflow: hidden;
     padding: 50px;
 }
 .section-content h1{
