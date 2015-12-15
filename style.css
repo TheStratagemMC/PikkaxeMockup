@@ -177,5 +177,10 @@ a.bigbutton:hover{
     font-weight: 100;
     font-size: 2.8em;
 }
+.section-content p{
+	font-weight: 300;
+	font-size: 1.2em;
+	padding: 10px;
+}
 .drop-icon{
     font-size: 1.4em;
